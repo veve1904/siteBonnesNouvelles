@@ -43,6 +43,16 @@ function books()
     return $controller;
 }
 
+/**
+ * @return ContactController
+ */
+function contact()
+{
+    require_once('controllers/ContactController.php');
+    $controller = new ContactController();
+    return $controller;
+}
+
 switch($action) {
 		case 'genese':
 			$controller = genesis();
@@ -51,9 +61,8 @@ switch($action) {
 			$controller = books();
             break;
 		case 'contact':
-			require_once('controllers/ContactController.php');	
-			$controller = new ContactController();
-			break;	
+			$controller = contact();
+            break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
 			require_once('controllers/AccueilController.php');	
 			$controller = new AccueilController();
