@@ -5,7 +5,9 @@
 	# Variables globales du site
 	define('CHEMIN_VUES','views/');
     define('EMAIL','jeanluc.collinet@ipl.be');
-	$date = date("j/m/Y");
+    define('EMAIL2','olivier.dewalque@student.vinci.be');
+
+$date = date("j/m/Y");
 	
 	# Require des classes automatisé
 	function chargerClasse($classe) {
