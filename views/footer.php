@@ -5,7 +5,7 @@
 				  echo $time; ?>ms pour exécuter le script PHP :: 
 			<!-- ! adresse email non cryptée : spam possible -->
 	        <a href="mailto:<?php echo EMAIL ?>"><?php echo EMAIL ?></a>
-			<p id="copyright">Mise en page d'après
+			<p id="copyright">Ce site site a été mis en page par
 				<a href="http://www.alsacreations.com/tutoriels/">Alsacréations</a>
 			</p>
             <p><?php echo EMAIL2 ?></p>
