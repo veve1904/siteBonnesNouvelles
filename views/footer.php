@@ -8,7 +8,7 @@
 			<p id="copyright">Ce site site a été mis en page par
 				<a href="http://www.alsacreations.com/tutoriels/">Alsacréations</a>
 			</p>
-			<p> FUCK GIT</p>
+			<p> Mort a GIT</p>
             <p><?php echo EMAIL2 ?></p>
 		</div><!-- #pied -->
 	</div><!-- #global -->
